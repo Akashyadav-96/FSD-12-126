@@ -14,7 +14,7 @@ const toWords = (digit) => {
     "nine",
   ];
   return words[digit];
-}
+};
 
 console.log(toWords(2));
 console.log(toWords(3));
