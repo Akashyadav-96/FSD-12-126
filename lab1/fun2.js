@@ -7,16 +7,14 @@ const F2 = () => {
 const F3 = () => {
   console.log("F3");
 };
-const F4 = () => {
-  console.log("F4");
-};
 
 function main() {
-  console.log("main");
-  F1();
-  F2();
+  console.log("main😊");
+  setTimeout(F1, 0);
+  setImmediate(F2);
+  //setInterval(F1, 10000);
+  process.nextTick(F3);
   F3();
-  F4();
-  console.log("End");
+  console.log("End✈️");
 }
 main();
