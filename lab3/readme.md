@@ -10,3 +10,22 @@ one of the most important moduule is Node.js orignally designed for building sca
 5. Foundation of Express.js
 
 There are total 2^32 port in computer server.
+
+#NPM - node package manager =>manage to install/uninstall package through node
+
+npm init -y =>project biolercode
+npm i <pakageName> =>install any package
+npm uninsatll <pakageName> =>uninstall any package
+
+to run node program => npm start
+to run nodeman program => npm run dev
+
+## HTTP status codes
+
+- 200 ->OK
+- 201 ->CREATED
+- 400 ->BAD REQUEST
+- 401 ->UNAUTHORIZED
+- 403 ->FORBIDDEN
+- 404 ->NOT FOUND
+- 500 ->INTERNAL SERVER ERROR
